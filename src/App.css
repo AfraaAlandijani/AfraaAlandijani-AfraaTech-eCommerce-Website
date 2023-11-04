@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&family=Young+Serif&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.main-content{
+  flex:2;
+}
+
+.admin-profile p{
+  padding: 0.5rem;
+}
+
+
+/* STYLE THE NAVIGATION MENU */
+.nav-menu {
+  color: "white";
+  width: "1.5rem";
+  height: "1.5rem";
+  position: "absolute";
+  bottom: 0;
+  right: 0;
+  transform: "translate(25%, 25%)";
+}
+
+ul {
+  list-style-type: none;
+}
+.nav-menu .menu {
+  display: flex;
+  gap: 2em;
+  font-size: 20px;
+}
+.nav-menu .menu li:hover {
+  background-color: #FF8551;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.search-input {
+  width: 90%;
+  padding: 5px;
+  text-align: center;
+  margin: 20px auto 10px auto;
+}
+
+.filter-select{
+  width: 10%;
+  font-size: 0.8rem;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #caced1;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
+}
+
+/* STYLE THE PRODUCTS */
+.products-contents {
+  display: flex;
+}
+
+.product {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  margin: 20px auto 10px auto;
+  display: inline-block;
+}
+.product button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  margin-top: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 15em;
+  font-size: 18px;
+}
+.product a:hover {
+  opacity: 0.7;
+}
+
+.price {
+  color: grey;
+  font-size: 17px;
+}
